@@ -1,8 +1,10 @@
+edited by tbreswald:
+-just limited the lenght of the box-rope to 10 nodes
+
 =-=-=-=-=-=-=-=-=-=
 
 Castles Mod
-by: Philipbenr And DanDuncombe
-
+by: Philipbenr And DanDuncomb
 =-=-=-=-=-=-=-=-=-=
 
 Licence: GPLv3
