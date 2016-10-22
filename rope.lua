@@ -110,7 +110,9 @@ minetest.register_abm({
 	chance = 1,
 	action = function(pos, node)
 	if minetest.get_node({x=pos.x,y=pos.y-1,z=pos.z}).name ~= 'air'  then return end
-		minetest.add_node({x=pos.x,y=pos.y-1,z=pos.z}, {name="castle:box_rope"})
+		if minetest.get_node({x=pos.x,y=pos.y-10,z=pos.z}).name = 'castle:ropebox'  then return end
+			minetest.add_node({x=pos.x,y=pos.y-1,z=pos.z}, {name="castle:box_rope"})
+		end
 	end
 })
 
